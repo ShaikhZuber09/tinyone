@@ -1,0 +1,126 @@
+.header{
+    background-color: #fcdb00;
+    padding: 100px 0;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.navbar li:last-child{
+    margin-right: 0;
+}
+.navbar li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.inspiration{
+    margin-top: 72px;
+    
+}
+.pri-heading{
+    margin-bottom: 25px;
+    color: #010101;
+    font-size: 32px;
+    font-weight: bold;
+}
+.sec-heading{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #313841;
+}
+.para{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #555555;
+}
+.icons ul{
+    display: inline-block;
+}
+.icons ul li{
+    margin-right: 40px;
+    float: left;
+}
+.icons ul li a{
+    color: #010101;
+}
+.iphone{
+    margin-left: 40px;
+}
+.features{
+    padding: 100px 0 10px 0;
+}
+.feature-info{
+    margin-bottom: 90px;
+}
+.thumb-info h4{
+    font-size: 22px;
+    color: #010101;
+}
+.thumb-info p{
+    font-size: 16px;
+    color: #898989;
+}
+.thumb-icon{
+    margin-top: 3px;
+}
+.thumbnails{
+    margin-bottom: 90px;
+}
+.footer{
+    padding: 100px 0;
+    background-color: #010101;
+}
+.contact-form{
+    margin-bottom: 80px;
+}
+.footer .pri-heading{
+    color: #fcdb00;
+    margin-bottom: 25px;
+}
+.footer .sec-heading{
+    margin-bottom: 45px;
+}
+.form input{
+    width: calc(100% - 155px);
+    height: 50px;
+   border-radius: 10px;
+   padding-left: 20px;
+}
+.form .button{
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    border-color: #fcdb00;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.form .button:hover,
+.form .button:active,
+.form .button:visited{
+    background-color:#010101 ;
+    color: #fcdb00;
+}
+.form{
+    margin-bottom: 80px;
+}
+
+.soci-links ul li a{
+color: #fcdb00;
+}
+
+.contact, .contact a {
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+
+
+

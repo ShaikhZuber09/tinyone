@@ -1,0 +1,206 @@
+:root {
+    --color-pri: #fcdb00;
+    --color-sec: #010101;
+    --color-dark: #000;
+    --color-white: #fff;
+    --color-grey-1: #313841;
+    --color-grey-2: #555555;
+    --color-grey-3: #898989;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.sect-padding {
+    padding: 10rem 0;
+}
+
+.pri-heading {
+    margin-bottom: 2.5rem;
+    color: var(--color-sec);
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.sec-heading {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    color: var(--color-grey-1);
+}
+
+.para {
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+    color: var(--color-grey-2);
+}
+
+.header {
+    background-color: var(--color-pri);
+}
+
+.header .navbar-brand {
+    padding: 0.25rem 1.5rem;
+}
+
+.header .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 7.2rem;
+}
+
+.header .navbar-default .navbar-nav>li>a {
+    color: var(--color-sec);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.header .navbar-default .navbar-nav>li>a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-sec);
+    height: 0.2rem;
+    width: 0%;
+    transition: all 0.7s ease-in-out;
+}
+
+.header .navbar-default .navbar-nav>li>a:hover:before {
+    width: 100%;
+}
+
+.header .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: var(--color-pri);
+}
+.header .navbar-default .navbar-toggle {
+    border-color: var(--color-sec);
+}
+.header .navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--color-sec);
+}
+.inspiration {
+    margin-top: 7.5rem;
+}
+
+.inspiration li a {
+    margin-right: 4rem;
+    color: var(--color-sec);
+}
+
+.features {
+    padding-bottom: 1rem;
+    background-color: var(--color-white);
+}
+
+.heading-wrap {
+    padding: 0 2.2rem;
+    margin-bottom: 9rem;
+}
+
+.feature-thumb {
+    margin-bottom: 9rem;
+}
+
+.feature-thumb h4 {
+    font-size: 2.2rem;
+    color: var(--color-sec);
+}
+
+.feature-thumb i {
+    margin-top: 6px;
+}
+
+.feature-thumb p {
+    font-size: 1.6rem;
+    color: var(--color-grey-3);
+}
+
+.contact {
+    background-color: var(--color-sec);
+}
+
+.contact .pri-heading {
+    color: var(--color-pri);
+}
+
+.contact .sec-heading {
+    color: var(--color-grey-3);
+    margin-bottom: 4.5rem;
+}
+
+.contact input {
+    height: 5rem;
+}
+
+.contact .form-group button {
+    height: 5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--color-pri);
+    color: var(--color-sec);
+    background-color: var(--color-pri);
+    transition: all 0.7s ease-in-out;
+}
+
+.contact .form-group button:hover {
+    background-color: var(--color-sec);
+    color: var(--color-pri);
+}
+
+.contact .form-group {
+    margin-bottom: 7.8rem;
+}
+
+.contact li a i {
+    color: var(--color-pri);
+    margin: 0 1.5rem;
+}
+
+.contact ul li a:focus,
+.contact ul li a:hover {
+    text-decoration: none;
+}
+
+.contact .footer-links li,
+.contact .footer-links li a {
+    color: var(--color-white);
+    font-size: 1.6rem;
+}
+
+@media all and (max-width:768px) {
+    .sect-padding {
+        padding: 6rem 0;
+    }
+
+    .header .navbar-default,
+    .feature-thumb,
+    .contact .form-group,
+    .contact input {
+        margin-bottom: 2rem;
+    }
+
+    .inspiration {
+        margin: 0 0 3rem;
+        text-align: center;
+    }
+    .contact li a i,.inspiration li a{
+        margin: 0;
+    }
+
+    .heading-wrap {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .header figure img{
+        width: 100%;
+    }
+}
